@@ -2,12 +2,12 @@
 This document outlines all the line and indentation conventions to be followed.
 
 ## Character Limit
-A line code should not contain more than `80` characters.
+A line of code should not contain more than `80` characters.
 
-> an exception is made for lines with `url links` and `keys`, in which the developer is allowed to write **only them** past 80 characters. Even then, they should minimize the character count on such line/s
+> an exception is made for lines with `url links` and `keys`, in which the developer is allowed to write **only the url/key** past 80 characters. Even then, they should minimize the character count on such line/s
 
 ### Examples
-In the example below, devs should realize that **only the url** is allowed to past the `80` character limit
+In the example below, devs should realize that **only the url/key** is allowed to past the `80` character limit
 ```json
 "node_modules/@babel/runtime": {
     "version"      : "7.24.0",
@@ -44,7 +44,7 @@ its `chunks`*.
 
 <br>
 
->A `chunk` is a single part of the url, separated through
+A `chunk` is a single part of the url, separated through
 signs such as `/`, `?`, and `&`
 
 >URLs inhibit a slightly different nature of styling. Due to them being 
