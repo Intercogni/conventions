@@ -51,6 +51,8 @@ signs such as `/`, `?`, and `&`
 frequently longer than `80` characters, it is allowed to write URLs past the 
 character limit
 
+<br>
+
 #### Examples:
 This URL:
 `https://registry.npmjs.org/@babel/runtime/-/runtime-7.24.0.tgz` 
@@ -61,7 +63,6 @@ consists of chunks:
 - `-/`
 - `runtime-7.24.0.tgz`
 
-`https://registry.npmjs.org/@babel/runtime/-/runtime-7.24.0.tgz` 
 ```js
 ✅  `https://registry.npmjs.org/@babel/runtime/-/runtime-7.24.0.tgz`
 
