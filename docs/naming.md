@@ -8,6 +8,8 @@ This document outlines all the naming conventions to be followed.
 
 > Classes : `PascalCase`
 
+> Files : `snake_case`
+
 > Folders in **Home** or **/~** or Windows from root up to **C:\Users\Username**: `PascalCase`
 
 > Folders anywhere else: `snake_case`
