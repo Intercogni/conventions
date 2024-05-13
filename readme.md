@@ -1,6 +1,4 @@
-![logo](./assets/intercogni-full-logo-blue-on-trans-wide-banner.png)
-
-This repository contains the conventions for all intercogni projects
+This repository contains the conventions for all Barunastra ITS' software projects
 
 # Directory
 - [Line and Indentation](./docs/line-and-indentation.md)
