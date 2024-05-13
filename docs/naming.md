@@ -12,7 +12,7 @@ This document outlines all the naming conventions to be followed.
 
 > Folders in **Home** or **/~** or Windows from root up to **C:\Users\Username**: `PascalCase`
 
-> Folders anywhere else: `snake_case`
+> Folders anywhere else: `kebab-case`
 
 ## Sets
 Sets are defined as an entity that is capable to store information and or process.
@@ -76,7 +76,7 @@ void cppHelloRepeater(int count) {
 }
 ```
 
-### Set Level 1: Classes
+### Set Level 1: Classes, Structs, and Entities
 > Use `Pascal_Case` to define `level 1 sets`.
 
 Sets with a `set level` of 1 contains information and or processes that **can** be broken down into user-defined components and or methods.
@@ -107,4 +107,47 @@ public:
         std::cout << "HELLO EVERYONE" << std::endl;
     }
 };
+```
+
+### Set Level 2: Files
+> Use `snake_case` to define `level 2 sets`.
+
+Sets with a `set level` of 2 is includes files. Any files, ending with any extensions, need to adhere to this rule.
+
+```
+readme.md
+```
+
+```
+my_python_code.py
+```
+
+```
+lightmark_indicator.tsx
+```
+
+```
+multithread_socket.c
+```
+
+
+### Set Level 3: Folders
+> Use `kebab-case` to define `level 3 sets`.
+
+Sets with a `set level` of 3 include a collection of one or more `level 2 sets`.
+
+Sets with a `set level` of 3 include folders.
+
+> An exception is made for top-level folders, in which folders in **Home** or **/~** or Windows from root up to **C:\Users\Username** is allowed to use `PascalCase` instead, adhering to the OS' conventions.
+
+```
+co-quest
+```
+
+```
+my-repository
+```
+
+```
+.github-private
 ```
