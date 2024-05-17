@@ -3,5 +3,9 @@
 This repository contains the conventions for all intercogni projects
 
 # Directory
-- [Line and Indentation](./docs/general/line_and_indentation.md)
-- [Naming](./docs/general/naming.md)
+## General
+- [`Line and Indentation`](./docs/general/line_and_indentation.md)
+- [`Naming`](./docs/general/naming.md)
+
+## Git
+- [`Commits`](./docs/git/commits.md)
