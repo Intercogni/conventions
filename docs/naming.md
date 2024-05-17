@@ -12,7 +12,7 @@ This document outlines all the naming conventions to be followed.
 
 > Folders in **Home** or **/~** or Windows from root up to **C:\Users\Username**: `PascalCase`
 
-> Folders anywhere else: `kebab-case`
+> Folders anywhere else & GitHub repositories: `kebab-case`
 
 ## Sets
 Sets are defined as an entity that is capable to store information and or process.
@@ -77,7 +77,7 @@ void cppHelloRepeater(int count) {
 ```
 
 ### Set Level 1: Classes, Structs, and Entities
-> Use `Pascal_Case` to define `level 1 sets`.
+> Use `PascalCase` to define `level 1 sets`.
 
 Sets with a `set level` of 1 contains information and or processes that **can** be broken down into user-defined components and or methods.
 
