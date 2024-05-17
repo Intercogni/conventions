@@ -1,4 +1,4 @@
-# GitHub
+# Git Commits
 This document outlines all the conventions to adhere when using git commits
 
 ## TLDR
