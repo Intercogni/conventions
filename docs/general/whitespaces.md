@@ -2,7 +2,9 @@
 This document outlines all the rules to be adhered regarding whitespaces
 
 ## Indentation Character
-Always use `space` to create indentations. If any 
+Always use `space` to create indentations. If any file within the convention's
+scope (see [`scope.md`](./scope.md)) uses `tab` indentations, always convert 
+them into `space` indentations
 
 ## End of Files
 When creating files parsable to text (programs, data tables, docs, etc.),
