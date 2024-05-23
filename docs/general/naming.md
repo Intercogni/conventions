@@ -6,7 +6,9 @@ This document outlines all the naming conventions to be followed.
 
 > Functions : `camelCase`
 
-> Classes : `PascalCase`
+> Class Definition / Type : `PascalCase`
+
+> Class-based consts/variables: `snake_case`
 
 > Files : `snake_case`
 
@@ -90,6 +92,9 @@ class PythonClass():
 
     def getName():
         print(self.name)
+
+if __name__ == '__main__':
+    my_python_class = PythonClass()
 ```
 
 ```js
@@ -103,7 +108,7 @@ const [JsMsg, setJsMsg] = useState({
 ```cpp
 class CppClass {
 public:
-    void Shout() {
+    void shout() {
         std::cout << "HELLO EVERYONE" << std::endl;
     }
 };
