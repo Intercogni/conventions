@@ -6,6 +6,9 @@ This repository contains the conventions for all intercogni projects
 ## General
 - [`Line and Indentation`](./docs/general/line_and_indentation.md)
 - [`Naming`](./docs/general/naming.md)
+- [`Convention Scope`](./docs/general/scope.md)
+- [`Whitespaces`](./docs/general/whitespaces.md)
 
 ## Git
+- [`Branches`](./docs/git/branches.md)
 - [`Commits`](./docs/git/commits.md)
