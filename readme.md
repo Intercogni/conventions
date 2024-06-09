@@ -1,8 +1,4 @@
-![logo](./assets/intercogni_full_logo_blue_on_trans_wide_banner.png)
-
-```
-This repository contains the conventions for all intercogni projects
-```
+This repository contains the conventions for all Barunastra ITS' software projects
 
 # Directory
 ## `General`
